@@ -1,0 +1,118 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--main-bg-color-black);
+}
+
+@font-face {
+    font-family: 'Invisible';
+    src: url("./font/Invisible-ExtraBold.otf") format("opentype");
+    font-style: normal;
+}
+
+:root{
+    --main-bg-color-black: #130042;
+    --main-bg-color-purple: #3310B2;
+    --main-bg-color-red: #F31C84;
+    --secundary-font-color-white: #F2EFE6;
+
+    --state-color-succes: #3EA667;
+    --state-color-warning: #F8C630;
+    --state-color-problem: #FF3F57;
+}
+
+.title {
+    font-family: 'Invisible';
+    font-size: 5rem;
+}
+
+.subtitle {
+    font-family: 'Invisible';
+    font-size: 4rem;
+}
+
+.button{
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 1.10rem;
+}
+
+.txt-body {
+    font-family: 'Arial';
+    font-size: 1.5rem;
+}
+
+.btn-primary{
+    background-color: var(--main-bg-color-red);
+    color: var(--secundary-font-color-white);
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Estilos */
+
+
+#principal .prin-title h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10%;
+    color: var(--secundary-font-color-white)
+}
+
+#principal .prin-title h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--main-bg-color-red)
+}
+
+.cuerpo h4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2%;
+    color: var(--secundary-font-color-white)
+}
+
+.container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#prin-btn {
+    max-width: 200px;
+    padding: 24px 40px 24px 40px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: var(--secundary-font-color-white);
+    color: var(--main-bg-color-black);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--secundary-font-color-white);
+    color:  var(--secundary-font-color-white);
+    text-align: center;
+}
+
+.footer img {
+    width: 8%;
+}
