@@ -1,0 +1,12 @@
+#visual {
+    display: flex;
+    flex-direction: column
+}
+
+.similars {
+    color: var(--main-bg-color-red);
+}
+
+span {
+    color: var(--secundary-font-color-white);
+}

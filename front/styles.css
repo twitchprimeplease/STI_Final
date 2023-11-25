@@ -39,6 +39,11 @@ body {
     font-size: 4rem;
 }
 
+.display {
+    font-family: 'Invisible';
+    font-size: 3rem;
+}
+
 .button{
     font-family: 'Arial';
     font-weight: bold;
