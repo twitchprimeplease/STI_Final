@@ -14,7 +14,18 @@ const teacher = document.getElementById("teacher").value;
 const time = 5;
 const general = 5;
 
-const body = {prefer, day, modal, general, method, personalGrowth, rec, teacher, time}
+const body = {usuario: 
+  [
+    {'general_rating' : general },
+    {'method_rating' :method}, 
+    {'personalGrowth_rating': personalGrowth},
+    {'rec_rating' : rec}, 
+    { 'teacher_rating' : teacher },
+    {'time_rating' : time}, 
+    {'classification' : prefer}, 
+    {'day' : day},  
+    {'modal' : modal },  
+  ]}
 
 sendToPythonServer(body);
 });
