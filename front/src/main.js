@@ -7,9 +7,25 @@ formForm.addEventListener("submit", (e) => {
 const prefer = document.getElementById("prefer").value;
 const day = document.getElementById("day").value;
 const modal = document.getElementById("modal").value;
-const importance = document.getElementById("valoration").value;
+const method = document.getElementById("method").value;
+const personalGrowth = document.getElementById("personal-growth").value;
+const rec = document.getElementById("rec").value;
+const teacher = document.getElementById("teacher").value;
+const time = 5;
+const general = 5;
 
-const body = {prefer, day, modal, importance}
+const body = {usuario: 
+  [
+    {'general_rating' : general },
+    {'method_rating' :method}, 
+    {'personalGrowth_rating': personalGrowth},
+    {'rec_rating' : rec}, 
+    { 'teacher_rating' : teacher },
+    {'time_rating' : time}, 
+    {'classification' : prefer}, 
+    {'day' : day},  
+    {'modal' : modal },  
+  ]}
 
 sendToPythonServer(body);
 });

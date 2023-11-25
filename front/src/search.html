@@ -16,7 +16,7 @@
             <form id="formulario">
                 <select name="prefer" id="prefer">
                     <option value="seleccionar">Selecciona tu preferencia</option>
-                    <option value="dev">Programación</option>
+                    <option value="develop">Programación</option>
                     <option value="ui">UI</option>
                     <option value="ux">UX</option>
                     <option value="other">Otro</option>
@@ -39,12 +39,41 @@
                     <option value="semipresencial">Semipresencial</option>
                 </select>
 
-                <select name="valoration" id="valoration">
-                    <option value="seleccionar">Selecciona el factor más importante para ti</option>
-                    <option value="method">Método de enseñanza</option>
-                    <option value="personal-growth">Crecimiento personal</option>
-                    <option value="rec">Recomendación de otros</option>
-                    <option value="teacher">Profesor</option>
+
+                <p>¿Qué tan importante consideras el método de enseñanza?</p>
+                <select id="method" name="method">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+                <p>¿Qué tan importante consideras el crecimiento personal?</p>
+                <select id="personal-growth" name="personal-growth">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+                <p>¿Qué tan importante consideras la Recomendación de otros?</p>
+                <select id="rec" name="rec">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+                <p>¿Qué tan importante consideras el Profesor o Profesora que dicta la clase?</p>
+                <select id="teacher" name="teacher">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
                 </select>
 
                 <input type="submit" value="Enviar">
