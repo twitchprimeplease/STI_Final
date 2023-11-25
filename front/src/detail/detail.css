@@ -1,12 +1,45 @@
-#visual {
-    display: flex;
-    flex-direction: column
-}
-
-.similars {
-    color: var(--main-bg-color-red);
-}
-
-span {
+h2, h3 {
     color: var(--secundary-font-color-white);
 }
+
+#title h1 {
+    color: var(--main-bg-color-red);
+    padding-top: 3%;
+}
+
+#group {
+    display: flex;
+    padding-top: 2.3%;
+    width: 100%;
+}
+
+#type-img img {
+    border-radius: 8px;
+    width: 65%;
+}
+
+#type-txt {
+    text-align: left;
+}
+
+.top {
+    padding-bottom: 2.3%;
+}
+
+#class-name h2 {
+    font-weight: bolder;
+}
+
+.titles h3 {
+    font-weight: bolder;
+}
+
+.middle {
+    padding-bottom: 2%;
+}
+
+#mini-title h2 {
+    color: var(--main-bg-color-red);
+    padding-top: 5%;
+}
+
