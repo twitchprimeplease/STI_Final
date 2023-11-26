@@ -46,21 +46,8 @@ async function sendToPythonServer(pData) {
     });
 
     const data = await response.json();
-    const data2 = {
-      class_name:"Electiva",
-      prefer:"UX/UI/development",
-      horario: [
-      "día1",
-      "día2"
-      ],
-      modalidad:"virtualidad/presencial",
-      similares: [
-      "electiva1",
-      "electiva2",
-      "electiva3",
-      "electiva4"]
-      }
-    redirect(data2)
+ 
+    redirect(data)
     console.log('Respuesta del servidor:', data);
   } catch (error) {
     console.error('Error al enviar datos:', error);

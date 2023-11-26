@@ -1,7 +1,14 @@
+p {
+    color: var(--secundary-font-color-white);
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0.5%;
+}
+
 .container-form {
     text-align: center;
     width: 100%;
-    margin-top: 13%;
+    margin-top: 2%;
 }
 
 select {
